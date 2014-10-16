@@ -13,8 +13,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainscreen.cpp
+        mainscreen.cpp \
+    apirequester.cpp
 
-HEADERS  += mainscreen.h
+HEADERS  += mainscreen.h \
+    apirequester.h
 
 FORMS    += mainscreen.ui
