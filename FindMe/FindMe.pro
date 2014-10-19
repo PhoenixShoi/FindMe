@@ -1,22 +1,13 @@
-#-------------------------------------------------
-#
-# Project created by QtCreator 2014-10-11T00:58:55
-#
-#-------------------------------------------------
-
-QT       += core gui
-
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
-
-TARGET = FindMe
 TEMPLATE = app
 
+QT += qml quick widgets
 
-SOURCES += main.cpp\
-        mainscreen.cpp \
-    apirequester.cpp
+SOURCES += main.cpp
 
-HEADERS  += mainscreen.h \
-    apirequester.h
+RESOURCES += qml.qrc
 
-FORMS    += mainscreen.ui
+# Additional import path used to resolve QML modules in Qt Creator's code model
+QML_IMPORT_PATH =
+
+# Default rules for deployment.
+include(deployment.pri)

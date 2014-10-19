@@ -1,0 +1,1273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		5E618435888B9D49F8540165 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Qmake";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/sanchirkartiev/Documents/Projects/Qt/FindMe/build-FindMe-iphoneos_clang_Qt_5_4_for_iOS-Debug -f FindMe.xcodeproj/qt_makeqmake.mak";
+		};
+		17BCE88CA477AB391E242009 = {
+			isa = PBXFileReference;
+			path = "/Users/sanchirkartiev/Documents/Projects/Qt/FindMe/FindMe/main.cpp";
+			name = "main.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		0DD74B6F3F7AF3BA94494E5F = {
+			fileRef = "17BCE88CA477AB391E242009";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		BFE91C734CCC09D6019F3BB1 = {
+			isa = PBXFileReference;
+			path = "/Users/sanchirkartiev/Documents/Projects/Qt/FindMe/build-FindMe-iphoneos_clang_Qt_5_4_for_iOS-Debug/findme_qml_plugin_import.cpp";
+			name = "findme_qml_plugin_import.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		9557AA9350AC8762D194DFD8 = {
+			fileRef = "BFE91C734CCC09D6019F3BB1";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1EB5BC3A31663A2D02DF5B59 = {
+			isa = PBXFileReference;
+			path = "/Users/sanchirkartiev/Documents/Projects/Qt/FindMe/build-FindMe-iphoneos_clang_Qt_5_4_for_iOS-Debug/findme_plugin_import.cpp";
+			name = "findme_plugin_import.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		5F026FB9B77E263AC60881D3 = {
+			fileRef = "1EB5BC3A31663A2D02DF5B59";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1EB1FC376E1EA02FA1172050 = {
+			isa = PBXFileReference;
+			path = "/Users/sanchirkartiev/Documents/Projects/Qt/FindMe/build-FindMe-iphoneos_clang_Qt_5_4_for_iOS-Debug/qrc_qml.cpp";
+			name = "qrc_qml.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		1EAB852CB4AA1ACC3B5ACD59 = {
+			fileRef = "1EB1FC376E1EA02FA1172050";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		6137FF60AC4164CCCF0A7F13 = {
+			isa = PBXFileReference;
+			path = "/Users/sanchirkartiev/Documents/Projects/Qt/FindMe/FindMe/FindMe.pro";
+			name = "FindMe.pro";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		A2EEE538F39439871BFE17CA = {
+			isa = PBXFileReference;
+			path = "/Users/sanchirkartiev/Documents/Projects/Qt/FindMe/FindMe/deployment.pri";
+			name = "deployment.pri";
+			sourceTree = "<absolute>";
+		};
+		0C4BA7B80F502DFF24B59CBF = {
+			isa = PBXFileReference;
+			path = "/Users/sanchirkartiev/Documents/Projects/Qt/FindMe/FindMe/qml.qrc";
+			name = "qml.qrc";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		0C4BA7B80F502DFF24B59CBF = {
+			isa = PBXFileReference;
+			path = "/Users/sanchirkartiev/Documents/Projects/Qt/FindMe/FindMe/qml.qrc";
+			name = "qml.qrc";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		3B0993332EE5DCCA4A21753A = {
+			fileRef = "0C4BA7B80F502DFF24B59CBF";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		25B08E2869634E9BCBA333A2 = {
+			isa = PBXGroup;
+			children = (
+				"1EB1FC376E1EA02FA1172050");
+			name = "Generated Sources";
+			sourceTree = "<Group>";
+		};
+		87DF60DE337FB58864343E39 = {
+			isa = PBXGroup;
+			children = (
+				"0C4BA7B80F502DFF24B59CBF");
+			name = "Resources";
+			sourceTree = "<Group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 = {
+			isa = PBXGroup;
+			children = (
+				"17BCE88CA477AB391E242009",
+				"BFE91C734CCC09D6019F3BB1",
+				"1EB5BC3A31663A2D02DF5B59");
+			name = "Sources";
+			sourceTree = "<Group>";
+		};
+		74B182DB50CB5611B5C1C297 = {
+			isa = PBXGroup;
+			children = (
+				"6137FF60AC4164CCCF0A7F13",
+				"A2EEE538F39439871BFE17CA",
+				"0C4BA7B80F502DFF24B59CBF");
+			name = "Supporting Files";
+			sourceTree = "<Group>";
+		};
+		7EF0942E79C014DCEC8976BC = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Preprocessors";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/sanchirkartiev/Documents/Projects/Qt/FindMe/build-FindMe-iphoneos_clang_Qt_5_4_for_iOS-Debug -f FindMe.xcodeproj/qt_preprocess.mak";
+		};
+		F7E50F631C51CD5B5DC0BC43 = {
+			buildActionMask = 2147483647;
+			files = (
+				"0DD74B6F3F7AF3BA94494E5F",
+				"9557AA9350AC8762D194DFD8",
+				"5F026FB9B77E263AC60881D3",
+				"1EAB852CB4AA1ACC3B5ACD59");
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Compile Sources";
+		};
+		85F59191083ADA9DCD5917F8 = {
+			isa = PBXFileReference;
+			name = "qios";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/platforms/libqios$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		806554BC6A465C4264F597E6 = {
+			fileRef = "85F59191083ADA9DCD5917F8";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FCC237CA5AD60B9BA4447615 = {
+			isa = PBXFileReference;
+			name = "Foundation.framework";
+			path = "/System/Library/Frameworks/Foundation.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		F26454630C80841CBDCFE1CA = {
+			fileRef = "FCC237CA5AD60B9BA4447615";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7EC00404ACD5AB0E97726B0E = {
+			isa = PBXFileReference;
+			name = "QuartzCore.framework";
+			path = "/System/Library/Frameworks/QuartzCore.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		B460F624007324313696BE86 = {
+			fileRef = "7EC00404ACD5AB0E97726B0E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4D765E1B1EA6C757220C63E7 = {
+			isa = PBXFileReference;
+			name = "CoreFoundation.framework";
+			path = "/System/Library/Frameworks/CoreFoundation.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		F8B465CE34D8DF87AAE95913 = {
+			fileRef = "4D765E1B1EA6C757220C63E7";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7D7B02101166B76FD2D4F8B4 = {
+			isa = PBXFileReference;
+			name = "CoreText.framework";
+			path = "/System/Library/Frameworks/CoreText.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		2B02D9DC58A01E45248DDBCE = {
+			fileRef = "7D7B02101166B76FD2D4F8B4";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6AE3EC31EE5BB1FCEE84137C = {
+			isa = PBXFileReference;
+			name = "CoreGraphics.framework";
+			path = "/System/Library/Frameworks/CoreGraphics.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		0CE02722F00CAD43741297B5 = {
+			fileRef = "6AE3EC31EE5BB1FCEE84137C";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		90CBCCD1573C877A51D30F67 = {
+			isa = PBXFileReference;
+			name = "Qt5PlatformSupport";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/lib/libQt5PlatformSupport$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		BE07BDABE43AE3F7EC306B0B = {
+			fileRef = "90CBCCD1573C877A51D30F67";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		205259EEEE2BADA5E64741E3 = {
+			isa = PBXFileReference;
+			name = "Security.framework";
+			path = "/System/Library/Frameworks/Security.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		15364689D2AB5A30E87A689F = {
+			fileRef = "205259EEEE2BADA5E64741E3";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FF5BDAB0076F3391B219EA52 = {
+			isa = PBXFileReference;
+			name = "SystemConfiguration.framework";
+			path = "/System/Library/Frameworks/SystemConfiguration.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		D4639595C3BCF2A39D88DF6E = {
+			fileRef = "FF5BDAB0076F3391B219EA52";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1A643AA0ACBABCE65B82972F = {
+			isa = PBXFileReference;
+			name = "Qt5Widgets";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/lib/libQt5Widgets$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		91C628774A631FDC37A4B6B1 = {
+			fileRef = "1A643AA0ACBABCE65B82972F";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2013578B9450A8B93E42A45E = {
+			isa = PBXFileReference;
+			name = "qtquick2plugin";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtQuick.2/libqtquick2plugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		5C6C22258D37DEE654431DFA = {
+			fileRef = "2013578B9450A8B93E42A45E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BEA4C05A6635421F8DB73325 = {
+			isa = PBXFileReference;
+			name = "qtquickcontrolsplugin";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtQuick/Controls/libqtquickcontrolsplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		997C18F21D8C11F13F7590EC = {
+			fileRef = "BEA4C05A6635421F8DB73325";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		503A2D6CB2C90E2988AC954D = {
+			isa = PBXFileReference;
+			name = "declarative_location";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtLocation/libdeclarative_location$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		7885F2C5BB2405AA6A2899CB = {
+			fileRef = "503A2D6CB2C90E2988AC954D";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3F614C34ABBF04AE29D65B50 = {
+			isa = PBXFileReference;
+			name = "Qt5Location";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/lib/libQt5Location$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		94C4BF25A1A1F65D5F1DA8D1 = {
+			fileRef = "3F614C34ABBF04AE29D65B50";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2C6066F10004130A846A3861 = {
+			isa = PBXFileReference;
+			name = "declarative_positioning";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtPositioning/libdeclarative_positioning$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B88816674CE1860EED4F1B7A = {
+			fileRef = "2C6066F10004130A846A3861";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3762B745DC3119068CA9EAEB = {
+			isa = PBXFileReference;
+			name = "Qt5Positioning";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/lib/libQt5Positioning$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		3A8C500C1613E0BDB3891EF9 = {
+			fileRef = "3762B745DC3119068CA9EAEB";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4F83116C57A644D43A9C7F28 = {
+			isa = PBXFileReference;
+			name = "windowplugin";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtQuick/Window.2/libwindowplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B30DF091F97E5E86437F14F5 = {
+			fileRef = "4F83116C57A644D43A9C7F28";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		5BC8604A982ED1445D98F972 = {
+			isa = PBXFileReference;
+			name = "qquicklayoutsplugin";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtQuick/Layouts/libqquicklayoutsplugin$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		6328408906FBD0B6184FEAA3 = {
+			fileRef = "5BC8604A982ED1445D98F972";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		E72BD8690216EC8687FDD095 = {
+			isa = PBXFileReference;
+			name = "qdds";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/imageformats/libqdds$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		9E861D156345E405F7B3CB05 = {
+			fileRef = "E72BD8690216EC8687FDD095";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3AE303C3EABB50CDFF9E90B8 = {
+			isa = PBXFileReference;
+			name = "qicns";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/imageformats/libqicns$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		01017E92D75AB73C8D114C18 = {
+			fileRef = "3AE303C3EABB50CDFF9E90B8";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		55738C1FB34A832D7FAC47FE = {
+			isa = PBXFileReference;
+			name = "qico";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/imageformats/libqico$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		AAF2AE74DDC81E9DD78479A6 = {
+			fileRef = "55738C1FB34A832D7FAC47FE";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2A4917BC307B65C64F9A824D = {
+			isa = PBXFileReference;
+			name = "qjp2";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/imageformats/libqjp2$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		64E144A2386DAD2E903E913A = {
+			fileRef = "2A4917BC307B65C64F9A824D";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ECC275E6063C17CCD859D05F = {
+			isa = PBXFileReference;
+			name = "qmng";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/imageformats/libqmng$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		A5AA4835AFE11DDE8422CC34 = {
+			fileRef = "ECC275E6063C17CCD859D05F";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1FB07B7F871549BD03C1FE87 = {
+			isa = PBXFileReference;
+			name = "qtga";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/imageformats/libqtga$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		01F43826B80C30ACF39129C5 = {
+			fileRef = "1FB07B7F871549BD03C1FE87";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		37D9364D79666D18AD5FD81A = {
+			isa = PBXFileReference;
+			name = "qtiff";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/imageformats/libqtiff$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		5F7243C362D66A700BB86611 = {
+			fileRef = "37D9364D79666D18AD5FD81A";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BE383CA5AC165D44E806A514 = {
+			isa = PBXFileReference;
+			name = "qwbmp";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/imageformats/libqwbmp$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		D3FE84D1A12735E8B4A66AD8 = {
+			fileRef = "BE383CA5AC165D44E806A514";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CFF3DDF127C91600A5DF3E31 = {
+			isa = PBXFileReference;
+			name = "qwebp";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/imageformats/libqwebp$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		314F6B6183773AC3A9BFC1C8 = {
+			fileRef = "CFF3DDF127C91600A5DF3E31";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		63CD6B51081DCF64C14E3CE6 = {
+			isa = PBXFileReference;
+			name = "qmldbg_qtquick2";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/qmltooling/libqmldbg_qtquick2$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		20CB843BB08CC7DA5E8DE233 = {
+			fileRef = "63CD6B51081DCF64C14E3CE6";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7866D99D57D4D5F420E98ED0 = {
+			isa = PBXFileReference;
+			name = "Qt5Quick";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/lib/libQt5Quick$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		307C564D8E6E752F8958CDD1 = {
+			fileRef = "7866D99D57D4D5F420E98ED0";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A4766C4B37BF5D82B3C4C9F6 = {
+			isa = PBXFileReference;
+			name = "Qt5Gui";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/lib/libQt5Gui$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		567BEB00EDCAE2F65E3DBCAC = {
+			fileRef = "A4766C4B37BF5D82B3C4C9F6";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FDB7FEB055D86447F53FC262 = {
+			isa = PBXFileReference;
+			name = "qtharfbuzzng";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/lib/libqtharfbuzzng$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		9A4B79854DCB2538B2647517 = {
+			fileRef = "FDB7FEB055D86447F53FC262";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		5807ECC68B9CA214CBB11590 = {
+			isa = PBXFileReference;
+			name = "qmldbg_tcp";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/qmltooling/libqmldbg_tcp$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		999A00E6DB3A2B713E7D69F1 = {
+			fileRef = "5807ECC68B9CA214CBB11590";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		EFF9BDD484AC3AC01716C0B2 = {
+			isa = PBXFileReference;
+			name = "Qt5Qml";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/lib/libQt5Qml$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		1E49AD55858CC0C75917ABAA = {
+			fileRef = "EFF9BDD484AC3AC01716C0B2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3EE4572E29890A3378F22DE5 = {
+			isa = PBXFileReference;
+			name = "qgenericbearer";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/bearer/libqgenericbearer$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		62407EEE6834AAA5670C9956 = {
+			fileRef = "3EE4572E29890A3378F22DE5";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4FC4050D1D3082117821E4CE = {
+			isa = PBXFileReference;
+			name = "Qt5Network";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/lib/libQt5Network$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		93FD427155CDE83552C425E5 = {
+			fileRef = "4FC4050D1D3082117821E4CE";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		DCADE95925AEED44EC9E0362 = {
+			isa = PBXFileReference;
+			name = "Qt5Core";
+			path = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/lib/libQt5Core$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		385DF30FAD3DD7E0F6B74C8F = {
+			fileRef = "DCADE95925AEED44EC9E0362";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3DA90DAE39A0C9D07C6F6B0F = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			inputPaths = (
+				"$(OBJECT_FILE_DIR_$(CURRENT_VARIANT))/$(CURRENT_ARCH)/");
+			outputPaths = (
+				"$(LINK_FILE_LIST_$(CURRENT_VARIANT)_$(CURRENT_ARCH))");
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Prelink";
+			shellPath = "/bin/sh";
+			shellScript = "/Users/sanchirkartiev/Qt5.4.0/5.4/ios/mkspecs/macx-ios-clang/rename_main.sh ${OBJECT_FILE_DIR}-${CURRENT_VARIANT}/${CURRENT_ARCH}";
+		};
+		AF39DD055C3EF8226FBE929D = {
+			children = (
+				"85F59191083ADA9DCD5917F8",
+				"FCC237CA5AD60B9BA4447615",
+				"7EC00404ACD5AB0E97726B0E",
+				"4D765E1B1EA6C757220C63E7",
+				"7D7B02101166B76FD2D4F8B4",
+				"6AE3EC31EE5BB1FCEE84137C",
+				"90CBCCD1573C877A51D30F67",
+				"205259EEEE2BADA5E64741E3",
+				"FF5BDAB0076F3391B219EA52",
+				"1A643AA0ACBABCE65B82972F",
+				"2013578B9450A8B93E42A45E",
+				"BEA4C05A6635421F8DB73325",
+				"503A2D6CB2C90E2988AC954D",
+				"3F614C34ABBF04AE29D65B50",
+				"2C6066F10004130A846A3861",
+				"3762B745DC3119068CA9EAEB",
+				"4F83116C57A644D43A9C7F28",
+				"5BC8604A982ED1445D98F972",
+				"E72BD8690216EC8687FDD095",
+				"3AE303C3EABB50CDFF9E90B8",
+				"55738C1FB34A832D7FAC47FE",
+				"2A4917BC307B65C64F9A824D",
+				"ECC275E6063C17CCD859D05F",
+				"1FB07B7F871549BD03C1FE87",
+				"37D9364D79666D18AD5FD81A",
+				"BE383CA5AC165D44E806A514",
+				"CFF3DDF127C91600A5DF3E31",
+				"63CD6B51081DCF64C14E3CE6",
+				"7866D99D57D4D5F420E98ED0",
+				"A4766C4B37BF5D82B3C4C9F6",
+				"FDB7FEB055D86447F53FC262",
+				"5807ECC68B9CA214CBB11590",
+				"EFF9BDD484AC3AC01716C0B2",
+				"3EE4572E29890A3378F22DE5",
+				"4FC4050D1D3082117821E4CE",
+				"DCADE95925AEED44EC9E0362");
+			isa = PBXGroup;
+			name = "Frameworks";
+			sourceTree = "<Group>";
+		};
+		D1C883685E82D5676953459A = {
+			buildActionMask = 2147483647;
+			files = (
+				"806554BC6A465C4264F597E6",
+				"F26454630C80841CBDCFE1CA",
+				"B460F624007324313696BE86",
+				"F8B465CE34D8DF87AAE95913",
+				"2B02D9DC58A01E45248DDBCE",
+				"0CE02722F00CAD43741297B5",
+				"BE07BDABE43AE3F7EC306B0B",
+				"15364689D2AB5A30E87A689F",
+				"D4639595C3BCF2A39D88DF6E",
+				"91C628774A631FDC37A4B6B1",
+				"5C6C22258D37DEE654431DFA",
+				"997C18F21D8C11F13F7590EC",
+				"7885F2C5BB2405AA6A2899CB",
+				"94C4BF25A1A1F65D5F1DA8D1",
+				"B88816674CE1860EED4F1B7A",
+				"3A8C500C1613E0BDB3891EF9",
+				"B30DF091F97E5E86437F14F5",
+				"6328408906FBD0B6184FEAA3",
+				"9E861D156345E405F7B3CB05",
+				"01017E92D75AB73C8D114C18",
+				"AAF2AE74DDC81E9DD78479A6",
+				"64E144A2386DAD2E903E913A",
+				"A5AA4835AFE11DDE8422CC34",
+				"01F43826B80C30ACF39129C5",
+				"5F7243C362D66A700BB86611",
+				"D3FE84D1A12735E8B4A66AD8",
+				"314F6B6183773AC3A9BFC1C8",
+				"20CB843BB08CC7DA5E8DE233",
+				"307C564D8E6E752F8958CDD1",
+				"567BEB00EDCAE2F65E3DBCAC",
+				"9A4B79854DCB2538B2647517",
+				"999A00E6DB3A2B713E7D69F1",
+				"1E49AD55858CC0C75917ABAA",
+				"62407EEE6834AAA5670C9956",
+				"93FD427155CDE83552C425E5",
+				"385DF30FAD3DD7E0F6B74C8F");
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Link Binary With Libraries";
+		};
+		776D5E25B18ED6FE9A43064F = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(EXECUTABLE_PATH)");
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Postlink";
+			shellPath = "/bin/sh";
+			shellScript = "cp /Users/sanchirkartiev/Documents/Projects/Qt/FindMe/build-FindMe-iphoneos_clang_Qt_5_4_for_iOS-Debug/qt.conf $CODESIGNING_FOLDER_PATH/qt.conf;  test -d $CODESIGNING_FOLDER_PATH/qt_qml && rm -r $CODESIGNING_FOLDER_PATH/qt_qml;  mkdir -p $CODESIGNING_FOLDER_PATH/qt_qml &&  for p in /Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml; do rsync -r --exclude='*.a' --exclude='*.prl' --exclude='*.qmltypes'  $p/ $CODESIGNING_FOLDER_PATH/qt_qml; done";
+		};
+		297CF2310FF1DA00581FB622 = {
+			isa = PBXFileReference;
+			path = "/Users/sanchirkartiev/Documents/Projects/Qt/FindMe/build-FindMe-iphoneos_clang_Qt_5_4_for_iOS-Debug/FindMe.xcodeproj/Default-568h@2x.png";
+			name = "Default-568h@2x.png";
+			sourceTree = "<absolute>";
+		};
+		ED81A7C7C9756F6A9FAA9F99 = {
+			fileRef = "297CF2310FF1DA00581FB622";
+			isa = PBXBuildFile;
+		};
+		38D2537601EC48A3236F7C85 = {
+			name = "Copy 'launch_images' Files to Bundle";
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 1;
+			files = (
+				"ED81A7C7C9756F6A9FAA9F99");
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		858FCAB0EB1F29CF8B07677C = {
+			children = (
+				"297CF2310FF1DA00581FB622");
+			isa = PBXGroup;
+			name = "Bundle Data";
+			sourceTree = "<Group>";
+		};
+		30414803F31797EB689AE508 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Copy Bundle Resources";
+		};
+		67D604E8359D080AE377264F = {
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			explicitFileType = "wrapper.application";
+			path = "FindMe.app";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FE0A091FDBFB3E9C31B7A1BD = {
+			children = (
+				"67D604E8359D080AE377264F");
+			isa = PBXGroup;
+			name = "Products";
+			sourceTree = "<Group>";
+		};
+		E8C543AB96796ECAA2E65C57 = {
+			children = (
+				"2EB56BE3C2D93CDAB0C52E67",
+				"25B08E2869634E9BCBA333A2",
+				"74B182DB50CB5611B5C1C297",
+				"87DF60DE337FB58864343E39",
+				"AF39DD055C3EF8226FBE929D",
+				"858FCAB0EB1F29CF8B07677C",
+				"FE0A091FDBFB3E9C31B7A1BD");
+			isa = PBXGroup;
+			name = "FindMe";
+			sourceTree = "<Group>";
+		};
+		1EC48D13F068CCE4490C6994 = {
+			buildPhases = (
+				"5E618435888B9D49F8540165",
+				"7EF0942E79C014DCEC8976BC");
+			dependencies = (
+				);
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXAggregateTarget;
+			buildRules = (
+);
+			productName = "Qt Preprocess";
+			name = "Qt Preprocess";
+		};
+		22B062654D38DB06160D37FD = {
+			isa = PBXTargetDependency;
+			target = "1EC48D13F068CCE4490C6994";
+		};
+		E23F5FE27E9F0A164D013577 = {
+			buildPhases = (
+				"F7E50F631C51CD5B5DC0BC43",
+				"3DA90DAE39A0C9D07C6F6B0F",
+				"D1C883685E82D5676953459A",
+				"776D5E25B18ED6FE9A43064F",
+				"38D2537601EC48A3236F7C85",
+				"30414803F31797EB689AE508");
+			dependencies = (
+				"22B062654D38DB06160D37FD");
+			productReference = "67D604E8359D080AE377264F";
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXNativeTarget;
+			buildRules = (
+);
+			productType = "com.apple.product-type.application";
+			name = "FindMe";
+			productName = "FindMe";
+		};
+		3AA6C32AC930069E80220CF1 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "armv7";
+				"ARCHS[sdk=iphonesimulator*]" = "i386";
+				COPY_PHASE_STRIP = "NO";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				PRODUCT_NAME = "FindMe";
+				QT_LIBRARY_SUFFIX = "_debug";
+				"QT_LIBRARY_SUFFIX[sdk=iphonesimulator*]" = "_iphonesimulator$(QT_LIBRARY_SUFFIX)";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = "/Users/sanchirkartiev/Documents/Projects/Qt/FindMe/build-FindMe-iphoneos_clang_Qt_5_4_for_iOS-Debug";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				IPHONEOS_DEPLOYMENT_TARGET = "5.0";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/mkspecs/macx-ios-clang/ios",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/include",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/include/QtQuick",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/include/QtWidgets",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/include/QtGui",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/include/QtQml",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/include/QtNetwork",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/include/QtCore",
+					".",
+					".",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/mkspecs/macx-ios-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/platforms",
+					"/System/Library/Frameworks/",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/lib",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtQuick.2",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtQuick/Controls",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtLocation",
+					"../../3rdparty/poly2tri",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtPositioning",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtQuick/Window.2",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtQuick/Layouts",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/imageformats",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/qmltooling",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/bearer");
+				FRAMEWORK_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-g",
+					"-Wall",
+					"-W",
+					"-fPIE",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_NO_PRINTER",
+					"-DQT_NO_PRINTDIALOG",
+					"-DQT_QML_DEBUG",
+					"-DQT_DECLARATIVE_DEBUG",
+					"-DQT_QUICK_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-fvisibility-inlines-hidden",
+					"-Wno-non-virtual-dtor",
+					"-Wno-overloaded-virtual",
+					"-Wno-exit-time-destructors",
+					"-g",
+					"-std=c++11",
+					"-stdlib=libc++",
+					"-Wall",
+					"-W",
+					"-fPIE",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_NO_PRINTER",
+					"-DQT_NO_PRINTDIALOG",
+					"-DQT_QML_DEBUG",
+					"-DQT_DECLARATIVE_DEBUG",
+					"-DQT_QUICK_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-stdlib=libc++",
+						"-u",
+						"_qt_registerPlatformPlugin",
+						"-L/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/platforms",
+						"-framework",
+						"UIKit",
+						"-L/Users/sanchirkartiev/Qt5.4.0/5.4/ios/lib",
+						"-framework",
+						"OpenGLES",
+						"-L/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtQuick.2",
+						"-L/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtQuick/Controls",
+						"-L/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtLocation",
+						"-L../../3rdparty/poly2tri",
+						"-lpoly2tri",
+						"-L/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtPositioning",
+						"-L/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtQuick/Window.2",
+						"-L/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtQuick/Layouts",
+						"-L/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/imageformats",
+						"-L/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/qmltooling",
+						"-L/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/bearer",
+						"-lz",
+						"-lm");
+				ARCHS = "arm";
+			};
+			name = "Debug";
+		};
+		77418F46922677BB04ED38DD = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "armv7";
+				"ARCHS[sdk=iphonesimulator*]" = "i386";
+				COPY_PHASE_STRIP = "NO";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				PRODUCT_NAME = "FindMe";
+				QT_LIBRARY_SUFFIX = "_debug";
+				"QT_LIBRARY_SUFFIX[sdk=iphonesimulator*]" = "_iphonesimulator$(QT_LIBRARY_SUFFIX)";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "FindMe";
+			};
+			name = "Debug";
+		};
+		339EE1B2CC4FC24589A0EA95 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "armv7";
+				"ARCHS[sdk=iphonesimulator*]" = "i386";
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "FindMe";
+				QT_LIBRARY_SUFFIX = "";
+				"QT_LIBRARY_SUFFIX[sdk=iphonesimulator*]" = "_iphonesimulator$(QT_LIBRARY_SUFFIX)";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = "/Users/sanchirkartiev/Documents/Projects/Qt/FindMe/build-FindMe-iphoneos_clang_Qt_5_4_for_iOS-Debug";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				IPHONEOS_DEPLOYMENT_TARGET = "5.0";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/mkspecs/macx-ios-clang/ios",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/include",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/include/QtQuick",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/include/QtWidgets",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/include/QtGui",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/include/QtQml",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/include/QtNetwork",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/include/QtCore",
+					".",
+					".",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/mkspecs/macx-ios-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/platforms",
+					"/System/Library/Frameworks/",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/lib",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtQuick.2",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtQuick/Controls",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtLocation",
+					"../../3rdparty/poly2tri",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtPositioning",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtQuick/Window.2",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtQuick/Layouts",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/imageformats",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/qmltooling",
+					"/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/bearer");
+				FRAMEWORK_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-g",
+					"-Wall",
+					"-W",
+					"-fPIE",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_NO_PRINTER",
+					"-DQT_NO_PRINTDIALOG",
+					"-DQT_QML_DEBUG",
+					"-DQT_DECLARATIVE_DEBUG",
+					"-DQT_QUICK_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-fvisibility-inlines-hidden",
+					"-Wno-non-virtual-dtor",
+					"-Wno-overloaded-virtual",
+					"-Wno-exit-time-destructors",
+					"-g",
+					"-std=c++11",
+					"-stdlib=libc++",
+					"-Wall",
+					"-W",
+					"-fPIE",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_NO_PRINTER",
+					"-DQT_NO_PRINTDIALOG",
+					"-DQT_QML_DEBUG",
+					"-DQT_DECLARATIVE_DEBUG",
+					"-DQT_QUICK_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-stdlib=libc++",
+						"-u",
+						"_qt_registerPlatformPlugin",
+						"-L/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/platforms",
+						"-framework",
+						"UIKit",
+						"-L/Users/sanchirkartiev/Qt5.4.0/5.4/ios/lib",
+						"-framework",
+						"OpenGLES",
+						"-L/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtQuick.2",
+						"-L/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtQuick/Controls",
+						"-L/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtLocation",
+						"-L../../3rdparty/poly2tri",
+						"-lpoly2tri",
+						"-L/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtPositioning",
+						"-L/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtQuick/Window.2",
+						"-L/Users/sanchirkartiev/Qt5.4.0/5.4/ios/qml/QtQuick/Layouts",
+						"-L/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/imageformats",
+						"-L/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/qmltooling",
+						"-L/Users/sanchirkartiev/Qt5.4.0/5.4/ios/plugins/bearer",
+						"-lz",
+						"-lm");
+				ARCHS = "arm";
+			};
+			name = "Release";
+		};
+		6666AA5E688052234F6758D8 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "armv7";
+				"ARCHS[sdk=iphonesimulator*]" = "i386";
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "FindMe";
+				QT_LIBRARY_SUFFIX = "";
+				"QT_LIBRARY_SUFFIX[sdk=iphonesimulator*]" = "_iphonesimulator$(QT_LIBRARY_SUFFIX)";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "FindMe";
+			};
+			name = "Release";
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"3AA6C32AC930069E80220CF1",
+				"339EE1B2CC4FC24589A0EA95");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug";
+		};
+		6CC3B5D2136C7CD6A5CF5A59 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"77418F46922677BB04ED38DD",
+				"6666AA5E688052234F6758D8");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug";
+		};
+		6DB9C3763D02B1415CD9D565 = {
+			hasScannedForEncodings = 1;
+			compatibilityVersion = "Xcode 3.2";
+			isa = PBXProject;
+			mainGroup = "E8C543AB96796ECAA2E65C57";
+			productRefGroup = "FE0A091FDBFB3E9C31B7A1BD";
+			buildConfigurationList = "DAC4C1AA5EDEA1C85E9CA5E6";
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"E23F5FE27E9F0A164D013577",
+				"1EC48D13F068CCE4490C6994");
+		};
+	};
+	rootObject = "6DB9C3763D02B1415CD9D565";
+}
