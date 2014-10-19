@@ -1,8 +1,9 @@
 TEMPLATE = app
 
-QT += qml quick widgets
+QT += qml quick widgets positioning
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    geolocation.cpp
 
 RESOURCES += qml.qrc
 
@@ -11,3 +12,6 @@ QML_IMPORT_PATH =
 
 # Default rules for deployment.
 include(deployment.pri)
+
+HEADERS += \
+    geolocation.h

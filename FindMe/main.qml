@@ -35,6 +35,7 @@ ApplicationWindow {
         plugin: plugin
 
         center  {
+
             latitude: -27
             longitude: 153
         }
