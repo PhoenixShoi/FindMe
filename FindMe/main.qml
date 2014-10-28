@@ -3,6 +3,7 @@ import QtQuick.Controls 1.2
 import QtLocation 5.3
 import QtPositioning 5.3
 
+
 ApplicationWindow {
     visible: true
     width: 1024
@@ -36,7 +37,7 @@ ApplicationWindow {
 
         center  {
 
-            latitude: -27
+            latitude: 33
             longitude: 153
         }
         zoomLevel: 10

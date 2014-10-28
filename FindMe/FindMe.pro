@@ -1,9 +1,10 @@
 TEMPLATE = app
 
-QT += qml quick widgets positioning
+QT += qml quick widgets positioning declarative
 
 SOURCES += main.cpp \
-    geolocation.cpp
+    geolocation.cpp \
+    asyncbackgroundnetwork.cpp
 
 RESOURCES += qml.qrc
 
@@ -14,4 +15,10 @@ QML_IMPORT_PATH =
 include(deployment.pri)
 
 HEADERS += \
-    geolocation.h
+    geolocation.h \
+    asyncbackgroundnetwork.h
+
+macx: LIBS += -L$$PWD/../../../../boost_1_56_0/stage/lib/ -lboost_system
+
+INCLUDEPATH += $$PWD/../../../../boost_1_56_0
+DEPENDPATH += $$PWD/../../../../boost_1_56_0

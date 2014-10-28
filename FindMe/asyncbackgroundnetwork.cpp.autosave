@@ -1,0 +1,8 @@
+#include "asyncbackgroundnetwork.h"
+#include <boost/asio/io_service.hpp>
+#include <boost/context/fcontext.hpp>
+
+AsyncBackgroundNetwork::AsyncBackgroundNetwork()
+{
+    boost::asio::io_service io_service;
+}
